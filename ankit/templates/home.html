@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+<html>
+
+<head>
+	<title>{% block title %}Ankit Saini{% endblock %}</title>
+</head>
+
+<body>
+	{% block content %}
+	 <div class="container-fluid">
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+      <div class="row">
+            <div class="col-sm-8">
+              <h1 class="name">Ankit Saini</h1>
+              <!-- This is for text -->
+              <div class="row">
+                <div class="col-sm-1">
+                  <i class="fa fa-hand-o-right fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="col-sm-7">
+                  <p class="text"> I am a student of Information Technology at <br/> Indian Institute of Information Technology, Lucknow.</p>
+                </div>               
+              </div>
+
+              <div class="row">
+                <div class="col-sm-1">
+                  <i class="fa fa-hand-o-right fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="col-sm-7">
+                  <p class="text"> I am enjoying my work by involving myself in various Workshops and Technical activities.</p>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-4">
+                  <img src="{% static 'img/profile.jpg' %}" class="img-responsive">
+            </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    {% endblock %}
+</body>
+
+</html>

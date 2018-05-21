@@ -1,0 +1,36 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: #222 ! important;
+    border-color: #222 ! important;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.name{
+	font-family: 'Griffy', cursive;
+	font-size: 30px !important;
+}
+.text{
+	font-family: 'Griffy', cursive;
+	font-size: 20px !important;
+}
+.img-responsive{
+	border-style: groove;
+	border-color: #222;
+	border-radius: 20px;
+}
+.mySlides{
+  display: none;
+  width: 800px;
+  height: 600px;
+}
